@@ -1,0 +1,22 @@
+[ERROR Jul 14 10:24:42.159694663, defaults.go:139] Could not load configuration: Failed to load configuration.
+
+Stacktrace: /home/runner/work/cli/cli/internal/logging/logging.go:github.com/ActiveState/cli/internal/logging.Error:258
+/home/runner/work/cli/cli/internal/logging/defaults.go:github.com/ActiveState/cli/internal/logging.init.0:139
+/opt/hostedtoolcache/go/1.15.8/x64/src/runtime/proc.go:runtime.doInit:5652
+/opt/hostedtoolcache/go/1.15.8/x64/src/runtime/proc.go:runtime.doInit:5647
+/opt/hostedtoolcache/go/1.15.8/x64/src/runtime/proc.go:runtime.doInit:5647
+/opt/hostedtoolcache/go/1.15.8/x64/src/runtime/proc.go:runtime.main:191
+/opt/hostedtoolcache/go/1.15.8/x64/src/runtime/asm_amd64.s:runtime.goexit:1374
+
+[DEBUG Jul 14 10:24:42.217762296, locale.go:34] Init
+[DEBUG Jul 14 10:24:42.569176233, secrets.go:35] Gcloud Secretmanager failed to initialize (ignore if you're not trying to use gcloud): google: could not find default credentials. See https://developers.google.com/accounts/docs/application-default-credentials for more information.
+[DEBUG Jul 14 10:24:42.737714909, output.go:52] Requested outputer for 
+[DEBUG Jul 14 10:24:42.737760932, output.go:57] Using Plain outputer
+[DEBUG Jul 14 10:24:42.737792042, main.go:110] ConfigPath: /home/kawv/.config/activestate/cli-release
+[DEBUG Jul 14 10:24:42.737814445, main.go:111] CachePath: /home/kawv/.cache/activestate
+[DEBUG Jul 14 10:24:42.737999909, subshell.go:87] Detected SHELL: /bin/bash
+[DEBUG Jul 14 10:24:42.738026113, subshell.go:122] Using binary: /bin/bash
+[DEBUG Jul 14 10:24:42.777402157, secrets.go:61] secrets-api scheme=https host=platform.activestate.com base_path=/api/secrets/v1
+[DEBUG Jul 14 10:24:42.790284442, secrets.go:61] secrets-api scheme=https host=platform.activestate.com base_path=/api/secrets/v1
+[DEBUG Jul 14 10:24:42.792333967, deferred.go:100] Deferring: run-command, shim, 
+[DEBUG Jul 14 10:24:42.792701302, cmdcall.go:47] cmdcall
